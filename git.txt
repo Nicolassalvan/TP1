@@ -1,0 +1,5 @@
+Nicolas SALVAN - MAIN 3
+TP1 : Restructuration
+
+# === Exercice 1 === #
+2) Le répertoire créé est .git
