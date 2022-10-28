@@ -3,3 +3,16 @@ TP1 : Restructuration
 
 # === Exercice 1 === #
 2) Le répertoire créé est .git
+5) Maintenant le fichier est sur la branche master, il devient un git.txt auquel on peut accéder
+7) Le message affiché est le suivant:
+Sur la branche master
+Modifications qui ne seront pas validées :
+  (utilisez "git add <fichier>..." pour mettre à jour ce qui sera validé)
+  (utilisez "git restore <fichier>..." pour annuler les modifications dans le répertoire de travail)
+	modifié:         git.txt
+
+aucune modification n'a été ajoutée à la validation (utilisez "git add" ou "git commit -a")
+8) La commande git log -p affiche le message lié au commit que l'on a fait précédemment, ainsi que les modifications du fichier git.txt
+9) Il affiche les différences entre le fichier qui est dans le .git et le fichier git.txt que l'on a pas encore add : Ainsi, le txt affiché est le document text, et la partie modifiée est à partir de la question 5 (donc la partie pas encore commited)
+11) On voit le fichier que l'on a est celui qui n'as pas encore été mis à jour. En effet, le fichier git.txt ne contient que les questions jusque la 2
+
